@@ -34,16 +34,18 @@
 	right: 0;
 	top: 0;
 }
+
 .water-blocks {
 	perspective: 1000px;
 	transform-style: preserve-3d;
 	display: block;
 }
 .water-block {
-	width: 50%;	
+	width: 25%;	
 	text-align: center;
 	transform-style: preserve-3d;
 	perspective: 1000px;
+	display: inline-block;
 }
 .water-block .image-holder {
 	width: 250px;
